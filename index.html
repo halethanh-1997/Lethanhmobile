@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeThanh-mobile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="./assets/css/Grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+
+<body>
+    <div id="main">
+        <!-- header -->
+        <header class="header ">
+            <nav class="header__navbar grid wide ">
+
+                <!-- khối bên trái thanh nav -->
+                <div class="nav-block-left">
+                    <div class="navbar__shopname">
+                        <a href=""> LeThanh <br> <br> Mobile </a>
+                    </div>
+
+                    <ul class="navbar-left-list">
+                        <li class="navbar-left-item">
+                            <button class="js-btn-danhmuc navbar-btn"> <i
+                                    class="nav-danhmuc fa-solid fa-rectangle-list "></i> Danh
+                                mục</button>
+                        </li>
+                        <li class="navbar-left-item ">
+                            <button class="js-btn-regions navbar-btn "> <i class="nav-location ti-location-pin"></i>
+                                <p>Xem giá tại <br> Miền Nam</p> <i class="nav-arrow-down ti-angle-down "></i>
+                            </button>
+
+                        </li>
+                    </ul>
+                </div>
+                <!-- Giữa thanh nav -->
+                <div class="navbar-mid">
+                    <input type="text" class="navbar-mid-search " placeholder=" Bạn cần tìm gì?">
+                    <button class="nav-search"> <i class="ti-search"></i></button>
+                </div>
+                <!-- khối bên phải thanh nav -->
+                <div class="nav-block-right">
+                    <ul class="navbar-right-list">
+                        <li class="navbar-right-item"><a href=""> <i class="nav-call fa-solid fa-phone"> </i> Gọi mua
+                                hàng
+                                1900.2097</a></li>
+                        <li class="navbar-right-item"><a href=""> <i class="nav-location ti-location-pin"></i>Cửa hàng
+                                gần bạn</a></li>
+                        <li class="navbar-right-item"><a href=""> <i class="nav-truck ti-truck"></i> Tra cứu đơn
+                                hàng</a></li>
+                        <li class="navbar-right-item"><a href=""> <i class="nav-shopping-cart ti-shopping-cart"></i> Giỏ
+                                hàng</a></li>
+                    </ul> -->
+
+                    <div class="navbar__login">
+                        <a href=""> <i class=" nav-user ti-user"></i> Đăng nhập</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- nút bấm xem giá -->
+        <div class="js-header__button-regions header__button-regions ">
+            <div class="js-btn-conatainer header__btn-container">
+                <a href="#">Miền Nam</a>
+                <a href="#">Miền Trung</a>
+                <a href="#">Miền Bắc</a>
+            </div>
+        </div>
+
+        <!-- begin the sidebar -->
+        <div class="sidebar js-sidebar ">
+            <div class="sidebar__container js-sidebar__container">
+                <!-- sidebar left -->
+                <div class="menu--fixed">
+                    <div class="menu--fixed-list">
+                        <div class="sidebar__nav">
+                            <a href="" class=" sidebar__list"> <i class=" sidebar__icon fa-solid fa-mobile"></i>
+                                <p> Điện Thoại </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list "> <i class="sidebar__icon fa-solid fa-laptop"></i>
+                                <p> Lap top </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list "> <i class="sidebar__icon fa-solid fa-tablet"></i>
+                                <p> Máy tính Bảng </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list"> <i class="sidebar__icon fa-solid fa-headphones"></i>
+                                <p> Âm thanh </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list"> <i class="sidebar__icon  ti-alarm-clock"></i>
+                                <p> Đồng hồ </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list"> <i class="sidebar__icon fa-solid fa-house-signal"></i>
+                                <p> Nhà thông minh </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list"> <i class="sidebar__icon fa-brands fa-usb"></i>
+                                <p> Phụ kiện </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list"> <i class="sidebar__icon fa-solid fa-computer"></i>
+                                <p> PC-Màn hình </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list"> <i class="sidebar__icon fa-solid fa-tv"></i>
+                                <p> Tivi </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list"> <i class="sidebar__icon ti-mobile"></i>
+                                <p> Thu cũ </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list"> <i class="sidebar__icon fa-solid fa-radio"></i>
+                                <p> Hàng cũ </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list"> <i class="sidebar__icon fa-solid fa-volume-high"></i>
+                                <p> Khuyến mãi </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+                            <a href="" class="sidebar__list sidebar__list--last "> <i
+                                    class="sidebar__icon fa-solid fa-newspaper "></i>
+                                <p> Tin công nghệ </p> <i class="ti-angle-right sidebar__ti-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- container MENU item all -->
+
+                <div class="sidebar__container-item grid">
+                </div>
+
+
+                <!-- Home slider -->
+                <div class="home-slider">
+                    <div class="home-slider-img-and-arrow">
+                        <div class="home-slider-wrap">
+                            <div class="home-slider-main">
+                                <img class="home-slider-item" src="./assets/img/s22 new.webp" alt="">
+                                <img class="home-slider-item" src="./assets/img/macbook-pro-13.webp" alt="">
+                                <img class="home-slider-item" src="./assets/img/Loa-LG-PL7.webp" alt="">
+                                <img class="home-slider-item" src="./assets/img/mi TV 4k P1.webp" alt="">
+                                <img class="home-slider-item" src="./assets/img/fujitsuu.webp" alt="">
+
+                            </div>
+                        </div>
+                        <i class=" slider-arrow home-slider-prev fa-solid fa-chevron-left"></i>
+                        <i class="slider-arrow home-slider-next fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div class="home-slider-footer">
+                        <div class="home-slider-footer-item active-home-silder-footer-item" data-index="0"> GALAXY S22
+                            SERIES <br>Ưu đãi đến 9 triệu </div>
+                        <div class="home-slider-footer-item" data-index="1"> MACBOOK PRO M2<br>Ưu đãi đến 5 triệu </div>
+                        <div class="home-slider-footer-item" data-index="2"> Loa LG Xboom PL7 <br> Quà xịn mua ngay
+                        </div>
+                        <div class="home-slider-footer-item" data-index="3"> TIVI XIAOMI 4K P1<br>Mở bán quà khủng
+                        </div>
+                        <div class="home-slider-footer-item" data-index="4"> Laptop Fujitsu<br>Mỏng nhẹ thanh lịch
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- sidebar right -->
+                <div class="sidebar__right">
+                    <img src="./assets/img/quangcao-galaxy-z-fold3.png" alt="">
+                    <img src="./assets/img/quangcao-iphone11.png" alt="">
+                    <img src="./assets/img/quangcao-laptop-ideapad-3.webp" alt="">
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- advertisement mid  -->
+
+        <div class="hotsale">
+        </div>
+        <!-- slider-mobile/////////////// -->
+
+        <div class="produce-list-title">
+            <a class="produce-title" href="">
+                <h1>điện thoại nổi bật nhất</h1>
+            </a>
+            <div class="list-related-tag">
+                <a href="" class="related-tag">Apple</a>
+                <a href="" class="related-tag">Samsung</a>
+                <a href="" class="related-tag">Xiaomi</a>
+                <a href="" class="related-tag">OPPO</a>
+                <a href="" class="related-tag">realme</a>
+                <a href="" class="related-tag">Nokia</a>
+                <a href="" class="related-tag">ASUS</a>
+                <a href="" class="related-tag">Tecno</a>
+                <a href="" class="related-tag">vivo</a>
+                <a href="" class="related-tag">Xem tất cả</a>
+            </div>
+            
+
+        </div>
+
+
+        <div class="slider-mobile">
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/iphone_11_white_4_.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> iPhone 11 64GB I Chính hãng VN/A</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 10.790.000&nbsp;₫  </p>
+                        <p class="produce__through"> 18.000.000&nbsp;₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> [HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ</p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>72 đánh giá</span> 
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/s22_4_1.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Samsung Galaxy S22 Plus (8GB + 128GB)</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show">20.190.000 ₫ </p>
+                        <p class="produce__through"> 25.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> 300.000 ₫ Dịch vụ phòng chờ hạng thương gia tại sân bay và 1 km khác</p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>1 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/2/iphone_13-_pro-5_4.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3>iPhone 13 Pro Max 128GB | Chính hãng VN/A </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show">27.390.000 ₫ </p>
+                        <p class="produce__through"> 34.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Thu cũ lên đời - Trợ giá 1 triệu</p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>33 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/2/layer_20_1.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> iPhone 11 128GB I Chính hãng VN/A</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 13.390.000 ₫</p>
+                        <p class="produce__through">19.900.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> [HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>35 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/3/iphone_12_pro_max_white_1.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> iPhone 12 Pro Max 128GB I Chính hãng VN/A</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 25.590.000 ₫</p>
+                        <p class="produce__through"> 32.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> [HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ và 1 km khác </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>162 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/3/t_i_xu_ng_2_18.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Xiaomi Redmi Note 11 Pro</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show">6.450.000 ₫ </p>
+                        <p class="produce__through">7.490.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg class="black-star" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>5 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/4/sm-s908_galaxys22ultra_front_burgundy_211119.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Samsung Galaxy S22 Ultra (8GB - 128GB)</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 25.090.000 ₫</p>
+                        <p class="produce__through"> 30.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Dịch vụ phòng chờ hạng thương gia tại sân bay và 1 km khác </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>6 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/4/samsung-galaxy-a73-1-600x600.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Samsung Galaxy A73 (5G) 256GB Samsung Galaxy A73 (5G) 256GB</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 20.190.000 ₫</p>
+                        <p class="produce__through"> 25.990.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Thu cũ đổi mới - Trợ giá đến 300.000đ và 1 km khác</p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>3 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/5/iphone_13-_pro-5.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> iPhone 13 128GB | Chính hãng VN/A</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 19.590.000 ₫</p>
+                        <p class="produce__through"> 24.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Thu cũ lên đời - Trợ giá 1 triệu</p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>16 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/5/800x800-640x640-5.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Xiaomi Redmi Note 11 128GB     </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 4.130.000 ₫</p>
+                        <p class="produce__through"> 4.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>11 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/6/800x800-1-640x640-5_2.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Xiaomi Redmi Note 11</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 3.850.000 ₫</p>
+                        <p class="produce__through"> 4.690.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Thu cũ đổi mới - Trợ giá đến 300.000đ </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>10 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/6/oppo_reno6.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> OPPO Reno6 Z 5G</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 6.790.000 ₫</p>
+                        <p class="produce__through">9.490.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Thu cũ đổi mới - Trợ giá đến 1 triệu </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>3 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/7/iphone_12_blue.png" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> iPhone 12 64GB I Chính hãng VN/A</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show">15.990.000 ₫ </p>
+                        <p class="produce__through">22.990.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>62 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/7/iphone_13-_pro-5 (1).jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3>iPhone 13 Pro 128GB | Chính hãng VN/A </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 24.790.000 ₫</p>
+                        <p class="produce__through"> 31.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Thu cũ lên đời - Trợ giá 1 triệu </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg class="black-star" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>3 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/8/11-pro-plus-blue.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Xiaomi Redmi Note 11 Pro Plus 5G</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show">8.890.000  </p>
+                        <p class="produce__through">9.990.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Thu cũ lên đời trợ giá 500.000đ </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>10 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/8/yellow_final_2.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Samsung Galaxy Note 20 Ultra 5G</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 18.990.000 ₫</p>
+                        <p class="produce__through"> 32.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Thu cũ đổi mới - Trợ giá đến 300.000đ </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>29 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/9/nubia_red_magic_7_supernova_18gb_256gb.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Nubia Red Magic 7 Obsidian 12GB 128GB</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show">18.490.000 ₫ </p>
+                        <p class="produce__through"> 18.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Thu cũ đổi mới - Trợ giá 500.000đ </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        
+                      
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/9/xiaomi-mi-11t-pro-price-in-usa-500x500.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Xiaomi 11T Pro</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 11.690.000 ₫</p>
+                        <p class="produce__through"> 14.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg class="black-star" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>6 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/9/sm-f926_zfold3_5g_openback_phantomsilver_210611.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3>Samsung Galaxy Z Fold3 5G </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show">30.990.000 ₫ </p>
+                        <p class="produce__through"> 41.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Giảm ngay 2.000.000đ khi thanh toán qua Moca </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>6 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/mobile/9/iphone-se-red-select-20220322.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3>iPhone SE 2022 | Chính hãng VN/ </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 11.390.000 ₫</p>
+                        <p class="produce__through"> 12.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Giảm thêm đến 1.000.000đ khi thanh toán qua thẻ tín dụng Citibank </p>
+                    </div>
+                    <div class="produce__box-rating">
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path></svg>
+                        <span>1 đánh giá</span>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+        
+        <!-- slider-laptop/////////////// -->
+        <div class="produce-list-title">
+            <a class="produce-title" href="">
+                <h1>Lap top</h1>
+            </a>
+            <div class="list-related-tag">
+                <a href="" class="related-tag">Macbook   </a>
+                <a href="" class="related-tag">Thinkpad</a>
+                <a href="" class="related-tag">Asus</a>
+                <a href="" class="related-tag">HP</a>
+                <a href="" class="related-tag">Surface</a>
+                <a href="" class="related-tag">Acer</a>
+                <a href="" class="related-tag">MSI</a>
+                <a href="" class="related-tag">Dell</a>
+                <a href="" class="related-tag">Xem tất cả</a>
+            </div>
+            
+
+        </div>
+
+        <div class="slider-laptop">
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/1 macbook_air_m2_1_1.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3>Apple Macbook Air M2 2022 8GB 256GB I Chính hãng Apple Việt Nam</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 31.490.000 ₫ </p>
+                        <p class="produce__through">32.990.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Giảm đến 2 triệu khi thanh toán qua thẻ tín dụng VIB, Sacombank, VP Bank và 1 km khác </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/2 _0000_46234_legion_5_15_phantom_blue_h.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop Lenovo Legion 5 15ACH6 82JW00JPVN  </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 20.790.000 ₫ </p>
+                        <p class="produce__through"> 25.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/3 mac_air.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 22.290.000 ₫ </p>
+                        <p class="produce__through"> 28.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Mua Office Home & Student 2021 kèm Macbook chỉ còn 2,090,000 </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/4   36112_18821_laptop_dell_inspiron_14_5406_2_in_1_tycjn1_1.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop Dell Insprion 14 5406-3661SLV Nhập khẩu chính hãng</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 12.990.000 ₫ </p>
+                        <p class="produce__through"> 15.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/5   t_i_xu_ng_4_3.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Apple Macbook Pro 13 M2 2022 8GB 256GB I Chính hãng Apple Việt Nam</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 32.990.000 ₫ </p>
+                        <p class="produce__through"> 35.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Thu cũ lên đời - Trợ giá 1 triệu </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/6    _0004_zenbook_s_13_oled__um5302_product_photo_8b_ponder_blue_04_touch_glass_numberpad.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop ASUS ZenBook UM5302TA-LX087W</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 27.990.000 ₫ </p>
+                        <p class="produce__through"> 29.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/7       mbp-silver-select-202011-spa.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Apple MacBook Pro 13 Touch Bar M1 256GB 2020 I Chính hãng Apple Việt Nam</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 29.590.000 ₫ </p>
+                        <p class="produce__through">35.990.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Mua Office Home & Student 2021 kèm Macbook chỉ còn 2,090,000 </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/8        _0002_xiaomiredmibook15_01.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop Xiaomi RedmiBook 15 JYU4505AP </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 11.490.000 ₫ </p>
+                        <p class="produce__through"> 12.990.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Tặng balo xiaomi </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/9      2_64_37.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop Asus Gaming Rog Strix G15 G513IH HN015W </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 17.990.000 ₫ </p>
+                        <p class="produce__through"> 23.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont">Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C  </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/10     microsoft_surface_pro-02_3.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Surface Pro 7 Core i5 / 8GB / 128GB Nhập Khẩu Chính Hãng</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 19.990.000 ₫ </p>
+                        <p class="produce__through">23.990.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/11       18_2_29.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3>Laptop Asus Vivobook 13 Slate Oled T3300KA </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 14.790.000 ₫ </p>
+                        <p class="produce__through">17.790.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/12     asus_br1100f_product_photo_1a_dark_grey_28_2000x2000.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop Asus Flip BR1100FKA-BP1088W</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 5.690.000 ₫ </p>
+                        <p class="produce__through">10.290.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/13       33_6.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop Gaming MSI Bravo 15 B5DD 276VN</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 14.890.000 ₫ </p>
+                        <p class="produce__through"> 22.490.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/14      _0003_asus-vivobook-a515ea-l12033w_8a1.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop ASUS VivoBook A515EA-L12033W</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 16.590.000 ₫ </p>
+                        <p class="produce__through"> 19.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/15      laptop-msi-modern-14-b11mou-1030vn-1.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop MSI Modern 14 B11MOU 1030VN</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 11.790.000 ₫ </p>
+                        <p class="produce__through"> 14.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/16      imac-2021-1.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> iMac 24 2021 M1 7GPU 8GB 256GB I Chính hãng Apple Việt Nam</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 28.990.000 ₫ </p>
+                        <p class="produce__through"> 34.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Mua Office Home & Student 2021 kèm Macbook chỉ còn 2,090,000 </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/17       2_64_22.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop Gaming Acer Nitro 5 AN515 45 R6EV</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 17.990.000 ₫ </p>
+                        <p class="produce__through"> 23.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Tặng bàn phím cơ Gaming Predator Aethon TKL 301 </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/18      laptop-lenovo-ideapad-3-1.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3>Laptop Lenovo IdeaPad Gaming 3 15ACH6 82K201BBVN </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 15.990.000 ₫ </p>
+                        <p class="produce__through">20.990.000 ₫ </p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Phần Mềm Diệt Virus, Office chính hãng chỉ từ 150k </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/19      cb9252e618c4537be38b0b8ea227d29-2.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop HP 14-CF2033WM 3V7G4UA</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 6.490.000 ₫ </p>
+                        <p class="produce__through"> 11.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/20   laptop-asus-vivobook-flip-14-tp470ea-ec346w-2.jpg" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3> Laptop Asus Vivobook Flip 14 TP470EA EC346W</h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 12.990.000 ₫ </p>
+                        <p class="produce__through"> 16.590.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Ưu đãi 200.000đ khi mua kèm màn hình đồ họa ASUS USB-C </p>
+                    </div>
+                
+                </a>
+            </div>
+
+            <div class="produce-container">
+
+                <a href="" class="produce-link">
+                    <div class="produce-img">
+                        <img src="./assets/img/lap top/21     macbook-pro-2021-007_1.webp" alt="">
+                    </div>
+                    <div class="produce-name">
+                        <h3>Macbook Pro 14 inch 2021 | Chính hãng Apple Việt Nam </h3>
+                    </div>
+                    <div class="box-price">
+                        <p class="produce__show"> 48.590.000 ₫ </p>
+                        <p class="produce__through"> 52.990.000 ₫</p>
+                    </div>
+                    <div class="produce-promotion">
+                        <p class="gift-cont"> Mua Office Home & Student 2021 kèm Macbook chỉ còn 2,090,000 </p>
+                    </div>
+                
+                </a>
+            </div>
+        </div>
+
+        <!-- slider Màn hình, máy tính để bàn -->
+
+        <!-- footer -->
+        <div class="footer-top">
+            <div class="footer-container">
+                
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    </div>
+
+
+
+</body>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./assets/script/slider.js"></script>
+
+
+
+
+</script> -->
+<script src="./assets/script/main.js"></script>
+
+</html>
